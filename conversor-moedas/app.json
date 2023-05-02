@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "conversor-moedas",
+    "slug": "conversor-moedas",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "async_storage",
+    "slug": "async_storage",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

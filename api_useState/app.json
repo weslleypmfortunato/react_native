@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "api_useState",
+    "slug": "api_useState",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

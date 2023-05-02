@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "animacao_interpolacao",
+    "slug": "animacao_interpolacao",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

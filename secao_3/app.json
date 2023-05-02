@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "secao_3",
+    "slug": "secao_3",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
