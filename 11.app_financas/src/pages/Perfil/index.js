@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { Container, Nome, NewLink, NewText, Logout, LogoutText } from './styles'
 import { AuthContext } from "../../contexts/auth";
 import { useNavigation } from "@react-navigation/native";
+import Header from "../../components/Header";
 
 export default function Perfil () {
 
@@ -10,6 +11,7 @@ export default function Perfil () {
 
   return (
     <Container>
+      <Header />
       <Nome>
         { user && user.nome }
       </Nome>
