@@ -1,9 +1,9 @@
 import React from 'react';
 import { createDrawerNavigator } from '@react-navigation/drawer'
-
 import Home from "../pages/Home";
 import New from '../pages/New';
 import Perfil from '../pages/Perfil';
+import CustomDrawer from '../components/CustomDrawer';
 
 const AppDrawer = createDrawerNavigator();
 console.disableYellowBox=true
@@ -11,6 +11,7 @@ console.disableYellowBox=true
 function AppRoutes () {
   return (
     <AppDrawer.Navigator
+      drawerContent={ (props) => <CustomDrawer {...props} /> }
       screenOptions={{
         drawerStyle: {
           backgroundColor: '#171717'
