@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, Text, View, TouchableOpacity, Modal, Image, TextInput } from 'react-native';
+import { StyleSheet, Text, View, TouchableOpacity, Modal, Image, TextInput, StatusBar } from 'react-native';
 import Entrar from './src/components/Entrar';
 
 export default class App extends Component {
@@ -26,6 +26,7 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
+        <StatusBar hidden={true}/>
         <Image 
           source={require('./src/images/logo.png')}
           style={styles.bombaGasolina}
