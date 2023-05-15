@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import { View, Keyboard, TouchableWithoutFeedback, Alert } from "react-native";
+import { View, v, TouchableWithoutFeedback, Alert } from "react-native";
 import Header from "../../components/Header";
 import { Background, Input, SubmitButton, SubmitText } from './styles'
 import Picker from "../../components/Picker/index";
